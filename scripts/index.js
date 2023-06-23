@@ -29,6 +29,6 @@ const submitDetails = async(event) => {
         }
     });
    alert("User has been registered")
-   window.location.reload();
+   window.location.assign("signIn.html");
         
 }

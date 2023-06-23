@@ -24,4 +24,5 @@ let res = await fetch("https://vast-lime-bat-cuff.cyclic.app/users/userLogin",{
  let data = await res.json()
  alert(data.msg)
     window.location.reload();
+    
 }
