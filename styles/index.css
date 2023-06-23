@@ -1,0 +1,88 @@
+body{
+    background-color: #4e59ad;
+}
+
+#validation{
+    width: 30%;
+    margin: auto;
+    /* border: 1px solid red; */
+    padding: 20px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: white;
+    height: 500px;
+    float: bottom;
+    overflow: auto;
+}
+
+h1{
+    font-family: sans-serif;
+    color: rgb(88, 84, 84);
+}
+
+input{
+    width: 96%;
+    margin-bottom: 30px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+select{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+#google{
+    display: flex;
+    border: 1px solid #dc4a38;
+    background-color: #dc4a38;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#google:hover{
+    cursor: pointer;
+    background-color: #d13b28;
+}
+
+#google>img{
+    width: 50px;
+    height: 50px;
+    border-right: 1px solid black;
+}
+
+h3{
+    margin-left: 130px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#details{
+    width: 100%;
+    background-color: #32c5d2;
+    color: white;
+    border: transparent;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+#details:hover{
+    background-color: #29919b;
+    cursor: pointer;
+}
+
+#log{
+    text-decoration: none;
+    color: rgb(91, 82, 82);
+    margin-left: 297px;
+    font-family: sans-serif;
+}
+
+#log:hover{
+    color: #32c5d2;
+}
+

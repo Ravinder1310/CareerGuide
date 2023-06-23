@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/signIn.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <form id="validation" onsubmit="login(event)">
+        <h1>Sign In!</h1>
+        <div id="google">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlNdLRifQIuPRg8AxQjpRKhA4NDaDtZOoVzA&usqp=CAU" alt="error">
+            <h3>GOOGLE</h3>
+        </div>
+        <input type="email" id="email" placeholder="Email" required><br>
+        <input type="password" id="password" placeholder="Password" required><br>
+        <input type="submit" id="details" value="LOG IN"/>
+        <a href="#" id="log">Forgot Your Password?</a>
+        <div id="sign">
+            <h4>Don't Have An Account Yet ?</h4>
+            <a href="./index.html">SIGNUP!</a>
+        </div>
+    </form>
+</body>
+</html>
+<script src="./scripts/signIn.js">
+</script>

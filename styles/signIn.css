@@ -1,0 +1,105 @@
+body{
+    background-color: #4e59ad;
+}
+
+#validation{
+    width: 30%;
+    margin: auto;
+    /* border: 1px solid red; */
+    padding: 20px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+h1{
+    font-family: sans-serif;
+    color: rgb(88, 84, 84);
+}
+
+input{
+    width: 96%;
+    margin-bottom: 30px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+#google{
+    display: flex;
+    border: 1px solid #dc4a38;
+    background-color: #dc4a38;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#google:hover{
+    cursor: pointer;
+    background-color: #d13b28;
+}
+
+#google>img{
+    width: 50px;
+    height: 50px;
+    border-right: 1px solid black;
+}
+
+h3{
+    margin-left: 130px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#details{
+    width: 100%;
+    background-color: #32c5d2;
+    color: white;
+    border: transparent;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+#details:hover{
+    background-color: #29919b;
+    cursor: pointer;
+}
+
+#log{
+    text-decoration: none;
+    color: rgb(91, 82, 82);
+    margin-left: 247px;
+    font-family: sans-serif;
+}
+
+#log:hover{
+    color: #32c5d2;
+}
+
+#sign{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: #f7f7f7;
+    margin-top: 10px;
+}
+
+#sign>h4{
+   font-family: sans-serif;
+   font-weight: 100;
+   color: grey;
+}
+
+#sign>a{
+    border: 2px solid rgb(110, 102, 102);
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgb(110, 102, 102);
+    font-family: sans-serif;
+}
+
+#sign>a:hover{
+    background-color: rgb(110, 102, 102);
+    color: white;
+}
