@@ -2,6 +2,7 @@
 
 
 const submitDetails = async(event) => {
+    event.preventDefault();
 
         let email = document.getElementById("email").value
         let name = document.getElementById("name").value
@@ -18,7 +19,6 @@ const submitDetails = async(event) => {
        city,
        mobile
     }
-    event.preventDefault();
     console.log(details_obj);
 
     let res = await fetch("https://vast-lime-bat-cuff.cyclic.app/users/addUser",{
