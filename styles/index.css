@@ -55,7 +55,7 @@ select{
 }
 
 h3{
-    margin-left: 130px;
+    margin-left: 110px;
     font-size: 25px;
     font-family: sans-serif;
     color: white;
@@ -78,7 +78,7 @@ h3{
 #log{
     text-decoration: none;
     color: rgb(91, 82, 82);
-    margin-left: 297px;
+    margin-left: 255px;
     font-family: sans-serif;
 }
 
